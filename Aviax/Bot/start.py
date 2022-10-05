@@ -64,8 +64,7 @@ keyboard = InlineKeyboardMarkup(
                InlineKeyboardButton("Help & Commands", callback_data="help"),
             ],
             [
-               InlineKeyboardButton(text="⚖ Owner", user_id=OWNER),
-               InlineKeyboardButton(text="Source 🌐", url="https://github.com/TeamAviax/AviaxSpamBot"), 
+               InlineKeyboardButton(text="⚖ Owner", user_id=OWNER), 
             ], 
             [
                InlineKeyboardButton(text="👥 Support", url="t.me/AviaxSupport"),
@@ -194,7 +193,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],
             [
                 InlineKeyboardButton("⚖ Owner", user_id=OWNER),
-                InlineKeyboardButton("Source 🌐", url=f"https://github.com/TeamAviax/AviaxSpamBot"),
             ],
             [
                 InlineKeyboardButton("👥 Support", url=f"https://t.me/AviaxSupport"),
